@@ -230,7 +230,54 @@ nav li a {
     border: 1px solid rgba(233, 68, 68, 0.2);
     border-radius: 16px;
     background: rgba(233, 68, 68, 0.05);
-    margin-left:433px ;
+    margin-left: 433px;
     margin-right: 434px;
     margin-top: 25px;
+}
+
+.newsletter-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.newsletter {
+    width: 475px;
+    height: 425px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.newsletter input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 16px 251px 16px 16px;
+    gap: 25px;
+    color: rgba(19, 19, 24, 0.3);
+    margin: 16px 40px;
+    text-align: left;
+}
+
+.newsletter button {
+    padding-left: 150px;
+    padding-right: 270px;
+    margin: 16px 40px;
+    font-size: 20px;
+    font-weight: 800;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-content{
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+
 }
