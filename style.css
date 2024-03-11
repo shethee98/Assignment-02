@@ -1,0 +1,111 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* shared styles */
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(19, 19, 24);
+}
+
+.highlighter-1 {
+    color: rgb(255, 84, 0);
+}
+
+/* navigation styles */
+header {
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner {
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(Images/group13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding-bottom: 106px;
+}
+
+.banner-content {
+    align-items: center;
+    text-align: center;
+    padding: 105px 185px;
+
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.text-description {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-container {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-left: 185px;
+    margin-right: 185px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 106px;
+    padding: 16px;
+}
+
+.btn-container .btn-white {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 16px 34px 16px 16px;
+    width: 174px;
+    height: 52px;
+}
+
+.btn-orange {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+}
