@@ -190,3 +190,47 @@ nav li a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* why choose us section style */
+.choose-us {
+    margin-right: 135px;
+    margin-left: 135px;
+    text-align: center;
+}
+
+.card-row1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-content {
+    padding: 32px 32px 52px 32px;
+    text-align: left;
+}
+
+.card-3 {
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    margin-left:433px ;
+    margin-right: 434px;
+    margin-top: 25px;
+}
